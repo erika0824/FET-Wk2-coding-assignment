@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+}
+
+.navbar h1 {
+    margin-left: 20px;
+    display: flex;
+    font-family:cursive;
+    font-size: 50px;
+    color: rgb(92, 190, 186);
+}
+h2 {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(38, 78, 124);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.book-titles {
+    color: rgb(38, 78, 124);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar {
+    background-color: rgb(38, 78, 124);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 5px 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgb(92, 190, 186);
+}
+
+.navbar a:hover {
+color: rgb(228, 241, 241);
+}
+
+.images {
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    margin: 10px;
+    height: 600px;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.lists {
+    display: inline;
+    padding: 20px;
+    font-style: italic;
+    color: rgb(12, 25, 83);
+}
+
+#book1 {
+    border: rgb(39, 43, 44) solid 1px;
+}
+
+#book2 {
+    border: rgb(120, 215, 231) solid 1px;
+}
+
+#book3 {
+    border: rgb(12, 25, 83) solid 1px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    align-content: center;
+}
+
+.flexbox-item1 {
+    max-width: 400px;
+}
+
+.flexbox-item2 {
+    width: 800px;
+}
+
+.flexbox-image {
+    width: 400px;
+}
+
+
+.images-left {
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    margin: 10px;
+    height: 600px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+table {
+    margin-top: 50px;
+    margin-bottom:  50px;;
+    border-collapse: collapse;
+    border: rgb(92, 190, 186) solid 1px;
+    width: 50%;
+    color: rgb(38, 78, 124);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: rgb(92, 190, 186) solid 1px;
+    border-left: rgb(92, 190, 186) 1px;
+    border-right: rgb(92, 190, 186) solid 1px;
+}
+
+
+tr:hover {
+    background-color: rgba(92, 190, 187, 0.432);
+
+}
+
+th {
+    background-color: rgb(92, 190, 186);
+}
+
+form {
+    margin: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(92, 190, 186);
+    border-color: rgb(92, 190, 186);
+    border-radius: 5px;
+}
+
+.form-input {
+    padding: 8px;
+    margin: 8px;
+}
